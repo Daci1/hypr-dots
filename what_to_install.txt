@@ -1,2 +1,4 @@
 Fonts: JetBrainsMono Nerd Font
 Bluetooth Manager: blueman
+Notification Manager: swaync
+Screenshot: slurp, grim, wl-clipboard
