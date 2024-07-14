@@ -13,6 +13,8 @@
 /*
 Arc-Dark Color Scheme
 */
+@define-color default #66ACED;
+
 @keyframes blink-warning {
     70% {
         color: white;
@@ -46,7 +48,6 @@ Arc-Dark Color Scheme
     min-height: 0;
     margin: 1px;
     padding: 0;
-    color: #66ACED;
 }
 
 
@@ -70,13 +71,12 @@ window#waybar {
 #memory,
 #mode,
 #custom-weather,
-#network,
+#connections,
 #pulseaudio,
 #temperature,
 #tray,
 #idle_inhibitor,
 #window,
-#bluetooth,
 #custom-power,
 #workspaces,
 #custom-media,
@@ -85,6 +85,7 @@ window#waybar {
     margin: 1px 6px;
     background-color: rgba(0,0,0,0.8);
     border-radius: 20px;
+    color: @default;
 }
 
 /* -----------------------------------------------------------------------------
@@ -215,11 +216,11 @@ window#waybar {
 #workspaces button {
     border-bottom: 3px solid transparent;
     margin-bottom: 0px;
-    color: #dfdfdf;
+    color: #bb9af7;
 }
 
 #workspaces button.active {
-    border-bottom: 1px solid  #ff4499;
+    border-bottom: 1px solid  #bb9af7;
     margin-bottom: 1px;
     padding-left:0;
 }
@@ -243,4 +244,9 @@ window#waybar {
 #backlight.icon {
     padding-right:1px;
     font-size: 13px;
+}
+
+#connections #bluetooth {
+	padding-right: 10px;
+	color: @default;
 }

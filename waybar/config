@@ -20,7 +20,6 @@
 
     "modules-right": [
         "tray",
-	"bluetooth",
         // "idle_inhibitor",
         "memory",
         "cpu",
@@ -30,8 +29,14 @@
         // "backlight#value",
         "pulseaudio",
     	"pulseaudio#microphone",
-        "network"
+	"group/connections",
+	"custom/power"
     ],
+
+	"group/connections": {
+		"orientation": "inherit",
+		"modules": [ "bluetooth", "network" ]
+	},
 
     // Modules
 
@@ -117,9 +122,7 @@
             "1": "",
             "2": "",
             "3": "󰙯",
-            "4": "",
-            "5": "󰡨",
-            "6": "",
+            "4": "",
         }
     },
 
@@ -145,6 +148,7 @@
     },
 
     "bluetooth": {
+	"format": " {status} |",
 	"on-click": "~/dotfiles/waybar/scripts/toggleBluetooth.sh",
 	"on-click-right": "blueman-manager"
     },
@@ -209,7 +213,7 @@
 
     "custom/power": {
         "format":"⏻",
-        "on-click": "exec ~/.config/waybar/scripts/power-menu.sh",
+        "on-click": "exec wlogout",
         "tooltip": false,
     },
 }
