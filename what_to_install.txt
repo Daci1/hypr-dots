@@ -2,3 +2,6 @@ Fonts: JetBrainsMono Nerd Font
 Bluetooth Manager: blueman
 Notification Manager: swaync
 Screenshot: slurp, grim, wl-clipboard
+
+Cursor: Bibata-Modern-Classic
+	Also, change themes in ~/.config/ qt5, qt6, gtk-3.0, gtk-4.0
