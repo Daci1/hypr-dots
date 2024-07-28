@@ -7,4 +7,4 @@ if [ -z "$selected_area" ]; then
 fi
 
 # Take a screenshot of the selected area
-grim -g "$selected_area" - | wl-copy | notify-send "Screenshot saved to clipboard."
+grim -g "$selected_area" - | wl-copy && notify-send "Screenshot saved to clipboard."

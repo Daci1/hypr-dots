@@ -11,3 +11,5 @@ Control logitech mouse & headphones: solaar
 SDDM Theme: 
 	- sddm-astronaut-theme (try from git if the local one does not work)
 	- change /etc/sddm.conf to use the correct theme
+
+File Explorer: yazi

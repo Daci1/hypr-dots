@@ -1,0 +1,9 @@
+[opener]
+open = [
+	{ run = 'xdg-open "$@"', desc = "Open" },
+]
+
+[open]
+prepend_rules = [
+	{ mime = "video/mp4", use = "open" },
+]
