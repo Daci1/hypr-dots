@@ -50,4 +50,5 @@ require("lazy").setup({
 	{
 		'L3MON4D3/LuaSnip'
 	},
+	{ 'numToStr/Comment.nvim', opts = {} }
 })
