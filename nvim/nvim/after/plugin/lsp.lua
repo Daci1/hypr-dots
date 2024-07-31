@@ -31,9 +31,13 @@ lsp_zero.on_attach(function(client, bufnr)
 end)
 
 cmp.setup({
-  mapping = cmp.mapping.preset.insert({
-    ['<CR>'] = cmp.mapping.confirm({select = false}),
-  }),
+	preselect = 'item',
+	completion = {
+		completeopt = 'menu,menuone,noinsert'
+	},
+	mapping = cmp.mapping.preset.insert({
+		['<CR>'] = cmp.mapping.confirm({select = false}),
+	}),
 })
 
 lsp_zero.setup()
