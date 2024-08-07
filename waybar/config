@@ -134,6 +134,7 @@
         "format-bluetooth-muted": " {icon}  {format_source}",
         "format-muted": "󰸈 {icon} {volume}%",
         "format-icons": {
+            "discord-share": "",
             "headphone": "",
             "hands-free": "וֹ",
             "headset": "",
@@ -142,10 +143,10 @@
             "car": "",
             "default": [""]
         },
-        "on-click": "pactl set-sink-mute @DEFAULT_SINK@ toggle",
+        "on-click": "/home/daci/dotfiles/hypr/hyprland/scripts/muteVolume.sh",
         "on-click-right": "pavucontrol",
-        "on-scroll-up": "pactl set-sink-volume @DEFAULT_SINK@ +2%",
-        "on-scroll-down": "pactl set-sink-volume @DEFAULT_SINK@ -2%",
+        "on-scroll-up": "/home/daci/dotfiles/hypr/hyprland/scripts/raiseVolume.sh",
+        "on-scroll-down": "/home/daci/dotfiles/hypr/hyprland/scripts/lowerVolume.sh",
     },
 
     "bluetooth": {
