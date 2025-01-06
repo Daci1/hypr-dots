@@ -143,15 +143,15 @@
             "car": "",
             "default": [""]
         },
-        "on-click": "/home/daci/dotfiles/hypr/hyprland/scripts/muteVolume.sh",
+        "on-click": "/home/daci/hypr-dots/hypr/hyprland/scripts/muteVolume.sh",
         "on-click-right": "pavucontrol",
-        "on-scroll-up": "/home/daci/dotfiles/hypr/hyprland/scripts/raiseVolume.sh",
-        "on-scroll-down": "/home/daci/dotfiles/hypr/hyprland/scripts/lowerVolume.sh",
+        "on-scroll-up": "/home/daci/hypr-dots/hypr/hyprland/scripts/raiseVolume.sh",
+        "on-scroll-down": "/home/daci/hypr-dots/hypr/hyprland/scripts/lowerVolume.sh",
     },
 
     "bluetooth": {
 	"format": " {status} |",
-	"on-click": "~/dotfiles/waybar/scripts/toggleBluetooth.sh",
+	"on-click": "~/hypr-dots/waybar/scripts/toggleBluetooth.sh",
 	"on-click-right": "blueman-manager"
     },
 
@@ -166,7 +166,7 @@
     // to use the weather module replace <your_location> with your city or town
     // note: do not use spaces: new york would be newyork
     "custom/weather": {
-        "exec": "~/dotfiles/waybar/scripts/weather.sh tampa", 
+        "exec": "~/hypr-dots/waybar/scripts/weather.sh tampa", 
         "return-type": "json",
         "interval": 600,
     },
