@@ -1,1 +1,1 @@
-cp ~/dotfiles/hypr/hyprlock/hyprlock.conf ~/.config/hypr/
+cp ~/hypr-dots/hypr/hyprlock/hyprlock.conf ~/.config/hypr/
