@@ -1,1 +1,1 @@
-cp ~/dotfiles/hypr/hyprland.conf ~/.config/hypr/hyprland.conf
+cp ~/hypr-dots/hypr/hyprland.conf ~/.config/hypr/hyprland.conf

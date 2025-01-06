@@ -1,1 +1,1 @@
-cp ~/dotfiles/hypr/hyprpaper/hyprpaper.conf ~/.config/hypr/
+cp ~/hypr-dots/hypr/hyprpaper/hyprpaper.conf ~/.config/hypr/

@@ -1,0 +1,20 @@
+Add other install scripts to big install script.
+Add a list of what to install (or continue the current list): wlogout, hyprlock, screenshot-stuff(check script), xdg portal, hyprpaper
+
+In order to dual boot windows:
+
+# Use sudo os-prober and make sure the windows boot
+sudo os-prober
+# Add GRUB_DISABLE_OS_PROBER=false to grub config
+sudo vim /etc/default/grub
+# Update grub config
+sudo grub-mkconfig -o /boot/grub/grub.cfg
+
+# How to sync sddm screen settings
+# I have also kde installed so i used this: Settings>search for sddm> in the top side: apply plasma settings
+# For only one monitor, just disable one and save settings than enable it back
+# Also check arch documentation for sddm section 2.12.1.2, seems legit
+
+# For KDE customization
+# Panels: go to screen edges and disable switch desktop on edge => this will allow hidden taskbars to appear on hover
+# Go to Desktop Effects and search for highligh and disable Highlight Screen Edges and Hot Corners
