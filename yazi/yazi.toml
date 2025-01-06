@@ -5,5 +5,5 @@ open = [
 
 [open]
 prepend_rules = [
-	{ mime = "video/mp4", use = "open" },
+	{ mime = "video/*", use = "open" },
 ]
