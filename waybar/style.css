@@ -80,7 +80,8 @@ window#waybar {
 #custom-power,
 #workspaces,
 #custom-media,
-#custom-PBPbattery {
+#custom-PBPbattery,
+#custom-wl-gammarelay-temperature {
     padding:0.25rem 0.75rem;
     margin: 1px 6px;
     background-color: rgba(0,0,0,0.8);
@@ -246,7 +247,15 @@ window#waybar {
     font-size: 13px;
 }
 
+#custom-wl-gammarelay-temperature {
+    color: #f7768e;
+}
+
 #connections #bluetooth {
 	padding-right: 10px;
 	color: @default;
+}
+
+tooltip {
+    background-color: rgba(0, 0, 0, 0.8);
 }
