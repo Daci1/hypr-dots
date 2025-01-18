@@ -1,5 +1,5 @@
 Add other install scripts to big install script.
-Add a list of what to install (or continue the current list): wlogout, hyprlock, screenshot-stuff(check script), xdg portal, hyprpaper
+Add a list of what to install (or continue the current list): wlogout, hyprlock, screenshot-stuff(check script), xdg portal, wallust
 
 In order to dual boot windows:
 
@@ -14,6 +14,9 @@ sudo grub-mkconfig -o /boot/grub/grub.cfg
 # I have also kde installed so i used this: Settings>search for sddm> in the top side: apply plasma settings
 # For only one monitor, just disable one and save settings than enable it back
 # Also check arch documentation for sddm section 2.12.1.2, seems legit
+
+# wallust: how it works
+# there is toml file inside hypr-dots/wallust. That is used when calling wallust run <image> -s (-s since i do not configure the terminal). Inside there are templates entries, each entry has one target and template, template for the file the will be in ~/.config/wallust/templates and target will be replaced by the template result
 
 # For KDE customization
 # Panels: go to screen edges and disable switch desktop on edge => this will allow hidden taskbars to appear on hover
