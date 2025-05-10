@@ -49,7 +49,6 @@ main() {
     done
     if [[ $pic_index -ne -1 ]]; then
         swww img "${PICS[$pic_index]}" $SWWW_PARAMS
-        ~/hypr-dots/hypr/hyprland/scripts/updateColors.sh
     else
         echo "Image not found."
         exit 1
