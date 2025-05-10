@@ -13,3 +13,11 @@ SDDM Theme:
 	- change /etc/sddm.conf to use the correct theme
 
 File Explorer: yazi
+
+Others:
+flatpak, rofi-wayland, hyprland, blueman, ttf-jetbrains-mono,
+qt5-base, qt6base, waybar, xdg-desktop-portal-hyprland,
+hyprlock, swww, swaync, wlogout, mangohud, lib32-mangohud, hyprlock,
+sddm, qt6-svg, qt6-virtualkeyboard, qt6-multimedia-ffmpeg,
+qbittorrent, discord, gamescope, thunar, cava, hyprpolkitagent,
+breeze-gtk, nwg-look, kvantum, swayosd, gimp, gamemode, lib32-gamemode, swhypridle, ttf-jetbrains-mono-nerd
