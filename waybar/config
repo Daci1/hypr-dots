@@ -114,6 +114,7 @@
         "format-ethernet": " ", // Icon: ethernet
         "format-disconnected": "⚠  Disconnected",
         "tooltip-format": "{ifname}: {ipaddr}",
+	"on-click-right": "kitty --class CUSTOM_CLASS_NETWORK_TUI -e nmtui"
     },
     "network#vpn": {
         "interface": "tun0",
@@ -143,7 +144,7 @@
             "2": "",
             "3": "",
             "4": "",
-            "5": ""
+            "5": "󰡨"
         }
     },
 
