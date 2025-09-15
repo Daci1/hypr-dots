@@ -19,6 +19,7 @@ PanelWindow {
     // Acceptable strings
     property string vertical: "top"    // "top" or "bottom"
     property string horizontal: "left" // "left" or "right"
+    property string _color: "#222222"
 
     // Validate input
     Component.onCompleted: {
@@ -45,6 +46,6 @@ PanelWindow {
 
         position: positionStr
         cornerRadius: root.cornerRadius
-        shapeColor: "#222222"
+        shapeColor: root._color
     }
 }
