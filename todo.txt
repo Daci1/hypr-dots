@@ -21,3 +21,6 @@ sudo grub-mkconfig -o /boot/grub/grub.cfg
 # For KDE customization
 # Panels: go to screen edges and disable switch desktop on edge => this will allow hidden taskbars to appear on hover
 # Go to Desktop Effects and search for highligh and disable Highlight Screen Edges and Hot Corners
+
+# Scaling Steam client
+add to /usr/share/applications/steam.desktop the prefix "GDK_SCALE=1.25 GDK_DPI_SCALE=1.25" to the exec command
